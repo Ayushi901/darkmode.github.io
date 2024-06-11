@@ -1,0 +1,42 @@
+/*Light mode*/
+
+body{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-top:50vh;
+}
+
+.outer-circle{
+    height: 35px;
+    width: 100px;
+    background-color:white;
+    border-color: black;
+    border-style: double;
+    border-radius: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.inner-circle{
+    height: 30px;
+    width: 50px;
+    background-color:black;
+    border-style: double;
+    border-radius: 20px;
+    margin-left:2px;
+}
+
+/*Dark Mode */
+.dark-mode{
+    background-color: black;
+    color: white;
+    .inner-circle{
+        background-color: white;
+        margin-left:44px;
+    }
+    .outer-circle{
+        background-color: black;
+        border-color: white;
+    }
+}
